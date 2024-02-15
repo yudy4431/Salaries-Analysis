@@ -36,4 +36,16 @@ company_size varchar(300),
 );
 ```
 
+## Use GCP to import data
+
+1. Import data to Cloud Storage.
+<img width="675" alt="cloud" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/d2f95fd6-9651-4cbd-963c-851ffd887c0e">
+
+2. Upload CSV file into GCP SQL.
+<img width="871" alt="import" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/2a16db41-3da4-4172-ada4-92ccb727043b">
+
+## Now can use MySQL Workbench to query.
+<img width="614" alt="SQL" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/8be96e39-a6cc-42a7-91dd-6d8a583a0e84">
+
+
 
