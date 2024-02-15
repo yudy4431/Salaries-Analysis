@@ -14,6 +14,24 @@ Create a GCP bucket. In order to save the management cost of the cloud system, t
 1. Create a database in MySQL Workbench.
 
 ```create database 'stem_salary';```
-2. 
+
+2. Create Table: stem
+
+```USE stem_salary;
+CREATE table stem(
+id int(10),
+work_year int(6),
+job_title varchar (50),
+job_category varchar(50),
+salary_currency varchar(10),
+salary int(10),
+salary_in_usd int(10),
+employee_residence varchar(50),
+experience_level varchar(50),
+employment_type varchar(50),
+work_setting varchar(50),
+company_location varchar(50),
+company_size varchar(300),
+);```
 
 
