@@ -17,7 +17,8 @@ Create a GCP bucket. In order to save the management cost of the cloud system, t
 
 2. Create Table: stem
 
-```USE stem_salary;
+```
+USE stem_salary;
 CREATE table stem(
 id int(10),
 work_year int(6),
@@ -32,6 +33,7 @@ employment_type varchar(50),
 work_setting varchar(50),
 company_location varchar(50),
 company_size varchar(300),
-); ```
+);
+```
 
 
