@@ -32,6 +32,6 @@ employment_type varchar(50),
 work_setting varchar(50),
 company_location varchar(50),
 company_size varchar(300),
-);```
+); ```
 
 
