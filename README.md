@@ -11,7 +11,7 @@ Create a GCP bucket. In order to save the management cost of the cloud system, t
 
 ## Config network setting for GCP instance, GCP SQL, and MySQL Workbench
 
-1. Create a database in MySQL Workbench.
+1. Create a database in MySQL Workbench.\n
 ```create database 'stem_salary';```
 2. 
 
