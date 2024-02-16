@@ -1,5 +1,5 @@
 # Salaries-Analysis
-In this case, we use GCP and MySQL Workbench to build ETL process. Then utilize Python to analyze the details.
+In this case, We use GCP and MySQL Workbench to build ETL process. Then utilize Python to analyze the details.
 This project includes three parts:
 1. Exploring data by Python, including data manipulating, mining, and visualizing.
 2. GCP building and MySQL database connecting.
@@ -12,9 +12,13 @@ This project includes three parts:
 3. Exploring Data Set
 4. GCP and MySQL Workbench Builing
 5. MySQL Quires for insights
+6. Conclusion
    
 
 ## 1. Introduction
+As someone who is looking for opportunities in the Data industry, We hope that this data analysis will give me a clearer idea of what kind of jobs are available and what kind of benefits they offer, and help me to have more direction in job search.
+
+
 This dataset provides comprehensive insights into salary trends and factors influencing compensation within the data industry.
 In this dataset, we can analyze salary trends over the years and across different job categories within the data industry. For instance, we can plot the median salary for Data Scientists, Data Engineers, and Data Analysts over the years to identify any noticeable trends. Additionally, we can compare the salary distribution between different experience levels within each job category to understand how experience influences compensation.
 
@@ -154,7 +158,56 @@ company_size varchar(300),
 <img width="614" alt="SQL" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/8be96e39-a6cc-42a7-91dd-6d8a583a0e84">
 
 
-# Exploring data by Python (salaries.ipynb)
+## MySQL Queries for Insights
+We defined 5 quesitons that using MySQL queries to find out answers.
+
+
+### Q1: What is the median salary for Data Scientists by experience level, and how does it vary across different company sizes?
+It doesn't show as we expect that the large company offers higher salaris in each experience level.
+People in medium size company usually has higher wages.
+
+----------------------------------------------------------------------------------
+<img width="893" alt="Q1" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/05374bfc-bb4b-431f-b23d-8d4c52c1a439">
+
+
+### Q2: How does the average salary for Data Engineers compare between Full-time and Contract employment types in different work settings?
+From the query, a full-time position has a way more higher salary compared with a contract position.
+There is no significant wage difference between remote and in-person for full-time; however it does have a gap for contactor. 
+
+----------------------------------------------------------------------------------
+<img width="428" alt="Q2" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/0e06717e-db2a-4f0d-9cc7-f486ac003106">
+
+
+### Q3: How has the median salary for Data Analysts changed over the years, and what is the trend across company in United States?
+Data analysts's average salaries had a significant increase form 2020 to 2022, and it basically remained the same from 2022 to 2023.
+
+----------------------------------------------------------------------------------
+<img width="662" alt="Q3" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/3d5cccad-3d24-4e83-a386-cc2410941827">
+
+
+### Q4: How do the average salaries of Data Analysts differ across various employment types and work settings?
+Data analysts who were working in part-time and hybrid mode got the highest salary.
+Our guess is that because of the epidemic, the company needed short-term manpower to handle the post-epidemic demand for positions.
+
+----------------------------------------------------------------------------------
+<img width="470" alt="Q4" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/98d663a4-35e5-4cc9-bd77-c0050859a9f3">
+
+
+### Q5: What is the average salary conversion rate from local currency to USD for each country of residence, and how does it vary based on the company location?
+People in Germany would have higher salaries. 
+
+----------------------------------------------------------------------------------
+<img width="517" alt="Q5" src="https://github.com/yudy4431/Salaries-Analysis/assets/73131672/c3bef943-874c-4ade-94a0-acc010661440">
+
+
+## Conclusion
+Based on the results of the data analysis, most of the data-related job vacancies, as well as the salary level and working environment, AI-related industry is indeed a very good development direction in recent years. The choice of company size also provides a good direction, and we can look for jobs in medium-sized companies, because the salary is not inferior to that of large companies, and there is also flexibility in the choice of work mode for negotiation.
+
+
+
+
+
+
 
 
 
